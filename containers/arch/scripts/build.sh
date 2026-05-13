@@ -12,4 +12,6 @@ if ! command -v podman >/dev/null 2>&1; then
 	exit 1
 fi
 
-podman build -t "$NAME" ../
+SCRIPT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+
+podman build -t "$NAME" "$SCRIPT_DIR"
