@@ -1,0 +1,8 @@
+{
+    "autosave": 8,          // salva automaticamente a cada 8 segundos
+    "tabsize": 4,           // tamanho visual do TAB = 4 espaços
+    "softwrap": true,       // quebra linhas longas visualmente
+    "rmtrailingws": true,   // remove espaços no fim das linhas ao salvar
+    "scrollspeed": 2,       // velocidade do scroll
+    "colorscheme": "solarized" // tema de cores do editor
+}
