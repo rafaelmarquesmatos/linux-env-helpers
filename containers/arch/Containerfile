@@ -8,4 +8,6 @@ RUN	pacman -Syu --noconfirm && \
 	micro && \
 	pacman -Scc --noconfirm
 
+COPY scripts/ /scripts/
+
 CMD ["/bin/bash"]

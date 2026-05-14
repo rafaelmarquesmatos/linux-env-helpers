@@ -2,10 +2,10 @@
 
 NAME="$1"
 
-if [ -z "$NAME" ]; then
+[[ -z "$NAME" ]] && {
 	echo "uso: ./script.sh <nome do container>"
 	exit 1
-fi
+}
 
 if ! command -v podman >/dev/null 2>&1; then
 	echo "podman não encontrado."
